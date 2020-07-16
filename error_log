@@ -1,0 +1,282 @@
+[13-May-2020 12:25:44 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/grafico-ingresos.php on line 94
+[13-May-2020 14:08:40 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[13-May-2020 14:28:33 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[13-May-2020 14:28:33 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 48
+[13-May-2020 19:30:14 UTC] PHP Parse error:  syntax error, unexpected ''<img src="'' (T_CONSTANT_ENCAPSED_STRING) in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 39
+[13-May-2020 19:30:18 UTC] PHP Parse error:  syntax error, unexpected ''<img src="'' (T_CONSTANT_ENCAPSED_STRING) in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 39
+[13-May-2020 19:36:51 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:37:38 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:39:02 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:39:42 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:39:50 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:39:54 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:40:35 UTC] PHP Notice:  Undefined index: fecha in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:49:08 UTC] PHP Notice:  Undefined index: estado in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:50:47 UTC] PHP Notice:  Undefined index: estado in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:50:47 UTC] PHP Notice:  Undefined variable: value in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 74
+[13-May-2020 19:50:47 UTC] PHP Notice:  Undefined variable: value in /home/cdinksjq/public_html/vale/vistas/modulos/cabezote.php on line 80
+[14-May-2020 10:31:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cdinksjq/public_html/vale/modelos/conexion.php:9
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cdinksjq/public_html/vale/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/cdinksjq/public_html/vale/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/cdinksjq/public_html/vale/vistas/modulos/login.php(36): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/cdinksjq/public_html/vale/vistas/plantilla.php(200): include('/home/cdinksjq/...')
+#5 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#6 /home/cdinksjq/public_html/vale/index.php(49): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/cdinksjq/public_html/vale/modelos/conexion.php on line 9
+[14-May-2020 12:30:41 UTC] PHP Warning:  unlink(vistas/img/usuarios/Israel/146.jpg): No such file or directory in /home/cdinksjq/public_html/vale/controladores/usuarios.controlador.php on line 284
+[14-May-2020 12:30:41 UTC] PHP Warning:  imagejpeg(vistas/img/usuarios/Israel/774.jpg): failed to open stream: No such file or directory in /home/cdinksjq/public_html/vale/controladores/usuarios.controlador.php on line 312
+[14-May-2020 12:31:57 UTC] PHP Warning:  unlink(vistas/img/usuarios/Israel/774.jpg): No such file or directory in /home/cdinksjq/public_html/vale/controladores/usuarios.controlador.php on line 443
+[14-May-2020 12:31:57 UTC] PHP Warning:  rmdir(vistas/img/usuarios/Israel): No such file or directory in /home/cdinksjq/public_html/vale/controladores/usuarios.controlador.php on line 444
+[14-May-2020 13:16:13 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 34
+[14-May-2020 13:16:38 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 34
+[14-May-2020 13:25:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function var_Drump() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php:7
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/vistas/modulos/inicio.php(112): include()
+#1 /home/cdinksjq/public_html/vale/vistas/plantilla.php(176): include('/home/cdinksjq/...')
+#2 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#3 /home/cdinksjq/public_html/vale/index.php(49): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 7
+[14-May-2020 13:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function var_Drump() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php:7
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/vistas/modulos/inicio.php(112): include()
+#1 /home/cdinksjq/public_html/vale/vistas/plantilla.php(176): include('/home/cdinksjq/...')
+#2 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#3 /home/cdinksjq/public_html/vale/index.php(49): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 7
+[14-May-2020 13:27:22 UTC] PHP Notice:  Array to string conversion in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 8
+[14-May-2020 13:27:22 UTC] PHP Notice:  Undefined variable: Array in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 8
+[14-May-2020 13:27:24 UTC] PHP Notice:  Array to string conversion in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 8
+[14-May-2020 13:27:24 UTC] PHP Notice:  Undefined variable: Array in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 8
+[14-May-2020 13:45:09 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:45:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:46:45 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:46:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:53:25 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:53:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:55:03 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:55:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:55:48 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:55:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:56:20 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:56:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:56:46 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 13:56:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:02:20 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:02:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:02:44 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:02:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:04:56 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:04:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:06:49 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:06:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:07:44 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:07:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:08:25 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:08:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:09:09 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:09:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:11:01 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:11:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:12:04 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:12:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:12:30 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:12:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:16:46 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/productos.controlador.php on line 40
+[14-May-2020 14:16:46 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/productos.controlador.php on line 51
+[14-May-2020 14:22:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[14-May-2020 14:23:03 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:23:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 14:34:47 UTC] PHP Fatal error:  Uncaught Error: Class 'Controladoractividad' not found in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php:243
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/vistas/plantilla.php(176): include()
+#1 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#2 /home/cdinksjq/public_html/vale/index.php(49): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 243
+[14-May-2020 14:35:29 UTC] PHP Fatal error:  Uncaught Error: Class 'Controladoractividad' not found in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php:243
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/vistas/plantilla.php(176): include()
+#1 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#2 /home/cdinksjq/public_html/vale/index.php(49): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 243
+[14-May-2020 14:36:04 UTC] PHP Fatal error:  Uncaught Error: Class 'Controladoractividad' not found in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php:243
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/vistas/plantilla.php(176): include()
+#1 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#2 /home/cdinksjq/public_html/vale/index.php(49): ControladorPlantilla::ctrPlantilla()
+#3 {main}
+  thrown in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 243
+[14-May-2020 14:37:26 UTC] PHP Warning:  require_once(modelos/actividad.modelo.php): failed to open stream: No such file or directory in /home/cdinksjq/public_html/vale/index.php on line 48
+[14-May-2020 14:37:26 UTC] PHP Fatal error:  require_once(): Failed opening required 'modelos/actividad.modelo.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cdinksjq/public_html/vale/index.php on line 48
+[14-May-2020 14:37:27 UTC] PHP Warning:  require_once(modelos/actividad.modelo.php): failed to open stream: No such file or directory in /home/cdinksjq/public_html/vale/index.php on line 48
+[14-May-2020 14:37:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'modelos/actividad.modelo.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cdinksjq/public_html/vale/index.php on line 48
+[14-May-2020 14:37:29 UTC] PHP Warning:  require_once(modelos/actividad.modelo.php): failed to open stream: No such file or directory in /home/cdinksjq/public_html/vale/index.php on line 48
+[14-May-2020 14:37:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'modelos/actividad.modelo.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cdinksjq/public_html/vale/index.php on line 48
+[14-May-2020 14:47:30 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[14-May-2020 14:47:30 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:51:51 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[14-May-2020 14:51:51 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:51:51 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:53:04 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[14-May-2020 14:53:04 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:53:04 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:56:03 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[14-May-2020 14:56:03 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:56:03 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:56:37 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:56:37 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:56:43 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:56:43 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:57:37 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:57:37 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:57:42 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:57:42 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 14:58:37 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 14:58:37 UTC] PHP Notice:  Undefined index: nuevaedad in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 107
+[14-May-2020 15:03:24 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 50
+[14-May-2020 15:24:19 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[14-May-2020 18:27:44 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 18:27:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 18:33:58 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 746
+[14-May-2020 18:33:58 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 751
+[14-May-2020 18:33:58 UTC] PHP Warning:  Illegal string offset 'actividad' in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 757
+[14-May-2020 18:35:06 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 746
+[14-May-2020 18:35:06 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 751
+[14-May-2020 18:35:06 UTC] PHP Warning:  Illegal string offset 'actividad' in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 757
+[14-May-2020 18:35:26 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 746
+[14-May-2020 18:35:26 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 751
+[14-May-2020 18:35:50 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 746
+[14-May-2020 18:35:50 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 751
+[14-May-2020 18:36:50 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 746
+[14-May-2020 18:36:50 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 751
+[14-May-2020 18:42:38 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 746
+[14-May-2020 18:42:38 UTC] PHP Notice:  Undefined index: actividad in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 751
+[14-May-2020 19:16:07 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:16:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:16:46 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:16:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:21:12 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[14-May-2020 19:28:51 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[14-May-2020 19:28:51 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 48
+[14-May-2020 19:38:06 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:38:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:50:54 UTC] PHP Notice:  Undefined variable: respuesta in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[14-May-2020 19:50:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/cdinksjq/public_html/vale/vistas/modulos/reportes/cumpleañeros.php on line 12
+[16-May-2020 13:31:39 UTC] PHP Warning:  include(modulos/ventas.php): failed to open stream: No such file or directory in /home/cdinksjq/public_html/vale/vistas/plantilla.php on line 179
+[16-May-2020 13:31:39 UTC] PHP Warning:  include(modulos/ventas.php): failed to open stream: No such file or directory in /home/cdinksjq/public_html/vale/vistas/plantilla.php on line 179
+[16-May-2020 13:31:39 UTC] PHP Warning:  include(): Failed opening 'modulos/ventas.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/cdinksjq/public_html/vale/vistas/plantilla.php on line 179
+[16-May-2020 13:31:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cdinksjq/public_html/vale/modelos/conexion.php:9
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cdinksjq/public_html/vale/modelos/movimientos.modelo.php(103): Conexion::conectar()
+#2 /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php(209): Modelomovimientos::mdlSumaTotalmovimientosingresos('movimientos')
+#3 /home/cdinksjq/public_html/vale/vistas/modulos/inicio/cajas-superiores.php(2): Controladormovimientos::ctrSumaTotalmoviemientosingresos()
+#4 /home/cdinksjq/public_html/vale/vistas/modulos/estadisticasmov.php(68): include('/home/cdinksjq/...')
+#5 /home/cdinksjq/public_html/vale/vistas/plantilla.php(179): include('/home/cdinksjq/...')
+#6 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#7 /home/cdinksjq/public_html/vale/index.php in /home/cdinksjq/public_html/vale/modelos/conexion.php on line 9
+[16-May-2020 13:31:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cdinksjq/public_html/vale/modelos/conexion.php:9
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cdinksjq/public_html/vale/modelos/personas.modelo.php(213): Conexion::conectar()
+#2 /home/cdinksjq/public_html/vale/controladores/personas.controlador.php(391): Modelopersonas::mdlMostrarpersonasadolcente('personas', NULL, NULL)
+#3 /home/cdinksjq/public_html/vale/vistas/modulos/reportes/clasificacion.php(6): Controladorpersonas::ctrMostrarpersonasadolcente(NULL, NULL)
+#4 /home/cdinksjq/public_html/vale/vistas/modulos/inicio.php(86): include('/home/cdinksjq/...')
+#5 /home/cdinksjq/public_html/vale/vistas/plantilla.php(179): include('/home/cdinksjq/...')
+#6 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#7 /home/cdinksjq/public_html/vale/index.php(51): Contro in /home/cdinksjq/public_html/vale/modelos/conexion.php on line 9
+[16-May-2020 13:32:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cdinksjq/public_html/vale/modelos/conexion.php:9
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cdinksjq/public_html/vale/modelos/personas.modelo.php(213): Conexion::conectar()
+#2 /home/cdinksjq/public_html/vale/controladores/personas.controlador.php(391): Modelopersonas::mdlMostrarpersonasadolcente('personas', NULL, NULL)
+#3 /home/cdinksjq/public_html/vale/vistas/modulos/reportes/clasificacion.php(6): Controladorpersonas::ctrMostrarpersonasadolcente(NULL, NULL)
+#4 /home/cdinksjq/public_html/vale/vistas/modulos/inicio.php(86): include('/home/cdinksjq/...')
+#5 /home/cdinksjq/public_html/vale/vistas/plantilla.php(179): include('/home/cdinksjq/...')
+#6 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#7 /home/cdinksjq/public_html/vale/index.php(51): Contro in /home/cdinksjq/public_html/vale/modelos/conexion.php on line 9
+[16-May-2020 13:32:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home/cdinksjq/public_html/vale/modelos/conexion.php:9
+Stack trace:
+#0 /home/cdinksjq/public_html/vale/modelos/conexion.php(9): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/cdinksjq/public_html/vale/modelos/usuarios.modelo.php(15): Conexion::conectar()
+#2 /home/cdinksjq/public_html/vale/controladores/usuarios.controlador.php(23): ModeloUsuarios::mdlMostrarUsuarios('usuarios', 'usuario', 'admin')
+#3 /home/cdinksjq/public_html/vale/vistas/modulos/login.php(36): ControladorUsuarios::ctrIngresoUsuario()
+#4 /home/cdinksjq/public_html/vale/vistas/plantilla.php(203): include('/home/cdinksjq/...')
+#5 /home/cdinksjq/public_html/vale/controladores/plantilla.controlador.php(7): include('/home/cdinksjq/...')
+#6 /home/cdinksjq/public_html/vale/index.php(51): ControladorPlantilla::ctrPlantilla()
+#7 {main}
+  thrown in /home/cdinksjq/public_html/vale/modelos/conexion.php on line 9
+[16-May-2020 15:05:52 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 481
+[16-May-2020 15:05:54 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 481
+[16-May-2020 15:43:46 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 482
+[16-May-2020 18:22:21 UTC] PHP Notice:  Undefined index: nuevoministerio in /home/cdinksjq/public_html/vale/controladores/grupos.controlador.php on line 28
+[16-May-2020 18:22:52 UTC] PHP Notice:  Undefined index: nuevoministerio in /home/cdinksjq/public_html/vale/controladores/grupos.controlador.php on line 28
+[21-May-2020 12:44:36 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[21-May-2020 12:45:10 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[21-May-2020 12:47:09 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/personas.controlador.php on line 39
+[22-May-2020 12:31:35 UTC] PHP Notice:  Undefined index: user in /home/cdinksjq/public_html/vale/vistas/modulos/perfil.php on line 37
+[22-May-2020 13:09:19 UTC] PHP Fatal error:  Cannot redeclare Modelomovimientos::mdlSumaTotalingresoscaja() in /home/cdinksjq/public_html/vale/modelos/movimientos.modelo.php on line 173
+[22-May-2020 13:09:22 UTC] PHP Fatal error:  Cannot redeclare Modelomovimientos::mdlSumaTotalingresoscaja() in /home/cdinksjq/public_html/vale/modelos/movimientos.modelo.php on line 173
+[22-May-2020 13:10:04 UTC] PHP Fatal error:  Cannot redeclare Modelomovimientos::mdlSumaTotalingresoscaja() in /home/cdinksjq/public_html/vale/modelos/movimientos.modelo.php on line 173
+[22-May-2020 13:10:12 UTC] PHP Fatal error:  Cannot redeclare Modelomovimientos::mdlSumaTotalingresoscaja() in /home/cdinksjq/public_html/vale/modelos/movimientos.modelo.php on line 173
+[22-May-2020 13:11:13 UTC] PHP Fatal error:  Cannot redeclare Modelomovimientos::mdlSumaTotalingresoscaja() in /home/cdinksjq/public_html/vale/modelos/movimientos.modelo.php on line 173
+[22-May-2020 13:22:41 UTC] PHP Notice:  Undefined variable: igresos in /home/cdinksjq/public_html/vale/vistas/modulos/perfil.php on line 62
+[22-May-2020 13:34:31 UTC] PHP Notice:  Undefined index: perfl in /home/cdinksjq/public_html/vale/vistas/modulos/perfil.php on line 57
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:40:12 UTC] PHP Notice:  Undefined index: fechas in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 107
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:55:22 UTC] PHP Warning:  A non-numeric value encountered in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:58:43 UTC] PHP Parse error:  syntax error, unexpected '$fecha' (T_VARIABLE), expecting ',' or ';' in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[27-Jun-2020 22:58:46 UTC] PHP Parse error:  syntax error, unexpected '$fecha' (T_VARIABLE), expecting ',' or ';' in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 108
+[28-Jun-2020 00:40:07 UTC] PHP Parse error:  syntax error, unexpected ''<td>('' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 110
+[28-Jun-2020 00:49:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 763
+[28-Jun-2020 00:50:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 110
+[28-Jun-2020 00:50:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cdinksjq/public_html/vale/vistas/modulos/personas.php on line 763
+[28-Jun-2020 01:19:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:19:05 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:19:09 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:23:16 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 162
+[28-Jun-2020 01:23:17 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 162
+[28-Jun-2020 01:25:28 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:25:45 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:25:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:25:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 163
+[28-Jun-2020 01:26:39 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 162
+[28-Jun-2020 02:53:27 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[28-Jun-2020 02:54:34 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 37
+[28-Jun-2020 02:54:34 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 48
+[28-Jun-2020 02:55:35 UTC] PHP Warning:  mkdir(): File exists in /home/cdinksjq/public_html/vale/controladores/movimientos.controlador.php on line 48
